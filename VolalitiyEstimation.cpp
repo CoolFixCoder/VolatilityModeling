@@ -33,5 +33,19 @@ here there is a slight change of notation from before; Ci is the closing price o
 #Parkinson(1980)
 This estimator used extreme value, the highs H and the lows L during the day.
         
-         
+         (Formula)
+This is five times more efficient than the close-to-close estimate.(That means, for the same amount of 
+data the variance of the data is one fifth that of the close-to-close measure.)
+Here High and Low price is considered.
+
+#Garman & Klass(1980)
+At 7.4 times more efficient that close to close, we have
+   ( formula)
+Here Oi is the opening price. Hi high price, Li Low price and Ci close price.
+
+#Rogers & Satchell(1991)
+Parkinson and Garman & Klass are not independent of the drift. Our final volatility estimate is
+  (Formula)
+    
+
 
